@@ -32,8 +32,8 @@
     --heading-h6-margin: 0;
 
     /* For .stsc class */
-    --standard-placeholder-color   : #1f1e33;
-    --standard-optional-color      : #1f1e3330;
+    --standard-placeholder-color   : #0b87da;
+    --standard-optional-color      : #0b87da30;
     /* --standard-optional-color   : #cce5ff; */
 }
 
