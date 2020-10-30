@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    @media only screen and (min-width: 48em) {
+        body>#main404 {
+            margin: 0 150px;
+        }
+    }
+    @media only screen and (max-width: 48em) {
+        body>#main404 {
+            margin: 0 50px;
+        }
+    }
+    body>#main404 h1 {
+        padding-top: 1em;
+    }
+    body>#main404 pre {
+        background-color: #f7f7f7;
+        padding: 2em;
+        overflow: auto;
+    }
+    body>#main404 code {
+        font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+        font-size: inherit;
+        line-height: 1.2em;
+    }
+</style>
+</head>
+<body>
+<div id="main404">
+    <h1>404 Not Found! 这个页面找不到了</h1>
+    <br>
+    <pre data-lang="cpp" class="line-numbers language-cpp"><code class="language-cpp">#include&lt;iostream&gt;
+int main() {
+    std::cout &lt;&lt; 404 &lt;&lt; std::endl;
+}</code></pre>
+    <h3>发生了什么？</h3>
+    <ul>
+        <li>该页面可能尚未完成</li>
+        <li>该页面可能已经删除</li>
+        <li>可能输入了错误的链接</li>
+    </ul>
+    您可以尝试<a href="javascript:window.history.back();">回到上一页面</a>或者<a href="/">前往首页</a>。
+</div>
+<script>
+document.querySelector('.docsify-pagination-container').remove();
+setTimeout(function() {document.querySelector('.utterances').remove();},100);
+</script>
+</body>
+
+</html>

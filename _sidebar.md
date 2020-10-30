@@ -1,2 +1,2 @@
-- 第一章 快速入门
-  - [第一个Python程序](ch01/first_program.md)
+* 第一章 快速入门
+  * [第一个Python程序](ch01/first_program.md)
