@@ -3,4 +3,5 @@
   * [简单运算](ch01/primary_calc.md)
   * [简单输入](ch01/simple_input.md)
   * [基本数据类型](ch01/basic_datatype.md)
+  * [组合数据类型](ch01/multitype.md)
 
