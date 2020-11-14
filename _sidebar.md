@@ -4,4 +4,6 @@
   * [简单输入](ch01/simple_input.md)
   * [基本数据类型](ch01/basic_datatype.md)
   * [组合数据类型](ch01/multitype.md)
-
+* [第三章 简单技巧](ch03/)
+  * [列表生成式](ch03/list_generator.md)
+  * [dict()函数](ch03/dict().md)
