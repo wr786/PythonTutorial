@@ -7,3 +7,7 @@
 * [第三章 简单技巧](ch03/)
   * [列表生成式](ch03/list_generator.md)
   * [dict()函数](ch03/dict().md)
+* [第四章 面向对象](ch04/)
+  * [类与实例](ch04/class&instance.md)
+  * [@property](ch04/@property.md)
+
